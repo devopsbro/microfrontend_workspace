@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    network_mode: host
+    build: .
+    container_name: angular-micro-app 
+    ports:
+    - "4200:4200" 

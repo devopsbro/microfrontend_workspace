@@ -9,8 +9,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN npm install && \
-    npm install -g @angular/cli@v1.4.3 && \
-    npm run build:elements
+    npm run build:allelements
 
 EXPOSE 4200
 

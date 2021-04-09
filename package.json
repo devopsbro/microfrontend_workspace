@@ -10,6 +10,7 @@
     "e2e": "ng e2e",
     "postinstall": "ngcc",
     "test2": "ng add ngx-build-plus && ng g ngx-build-plus:wc-polyfill && ng g ngx-build-plus:externals",
+    "build2": "ng build --extra-webpack-config webpack.externals.js --prod",
     "build:allelements": "npm run build:headerApp:externals && npm run build:mainApp:externals && npm run build:subApp:externals && npm run build:footerApp:externals && npm run build:sideApp:externals && npm run build:statementApp:externals && npm run build:transferApp:externals && npm run build:appone:externals && npm run build:apptwo:externals ",
     "build:headerApp:externals": "ng build --extra-webpack-config projects/headerApp/webpack.externals.js --prod --project headerApp --single-bundle --output-hashing none && node build-elements.js headerApp",
     "build:mainApp:externals": "ng build --extra-webpack-config projects/mainApp/webpack.externals.js --prod --project mainApp --single-bundle --output-hashing none && node build-elements.js mainApp",

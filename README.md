@@ -1,6 +1,7 @@
-# Microfrontends using Angular Elements
+Clone the git repository
+https://github.com/devopsbro/microfrontend_workspace/
 
+cd microfrontend_workspace
 
-Clone this repo on your computer and run `npm install` to install all dependencies.
-
-Please follow my [YouTube Tutorial](https://www.youtube.com/watch?v=oqle07Ifyoc) to build and deploy micro frontends on the local server.
+Start the container
+sudo docker-compose up -d

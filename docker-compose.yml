@@ -3,6 +3,6 @@ services:
   app:
     network_mode: host
     build: .
-    container_name: angular-micro-app 
+    container_name: all-micro-app 
     ports:
-    - "4200:4200" 
+    - "80:80" 
